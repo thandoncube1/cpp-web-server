@@ -7,6 +7,9 @@
 #include<unistd.h>
 #include<errno.h>
 #include<string>
+#include<sys/types.h>
+#include<sys/event.h>
+#include<sys/time.h>
 #include<fcntl.h>
 #include<assert.h>
 #include<signal.h>
